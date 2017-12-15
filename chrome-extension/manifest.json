@@ -1,0 +1,22 @@
+{
+    "name": "Acronym Lookup",
+    "version": "0.1",
+    "description": "Look up acronym definition based on use of acronym in selected text",
+    "manifest_version": 2,
+    "permissions": [
+        "contextMenus"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["popup.css"],
+            "js": ["jquery-1.8.3.min.js", "showMeaning.js"],
+            "run_at": "document_start",
+            "all_frames": true
+        }
+    ],
+    "background": {
+	"scripts": ["lookUpAcronym.js", "jquery-1.8.3.min.js"]
+    },
+    "icons": {"16": "icon.png"}
+}

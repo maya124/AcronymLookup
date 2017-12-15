@@ -1,0 +1,18 @@
+name: acronyms
+tag: latest
+image: python2    # Docker environment to run the model with.
+setup:
+- pip install sklearn
+- pip install scipy
+- pip install numpy
+- python -c "import sklearn"
+assets:                 # A list of Model files, such as weights.
+- trained-models/vectorizer.pkl
+- trained-models/naivebayes.pkl
+input_space:            # Input type annotations.
+  sentence: str
+output_space:           # Output type annotations.
+  results: str
+main:                   # Main entrypoint to serve the model.
+  type: python
+  entrypoint: serve.py::predict
