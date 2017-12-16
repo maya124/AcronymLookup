@@ -1,5 +1,5 @@
-# app.py
-#
+# app.py [Rachel Gardner]
+# 
 # This file creates a simple web application to look up acronym definitions.
 # The app can be run with `gunicorn app:app`
 

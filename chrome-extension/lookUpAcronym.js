@@ -1,4 +1,4 @@
-// lookUpAcronym.js
+// lookUpAcronym.js [Rachel Gardner]
 //
 // This file is the background script for the Chrome extension.
 // It handles the creation of the context menu and the highlevel

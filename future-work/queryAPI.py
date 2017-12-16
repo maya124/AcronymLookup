@@ -1,4 +1,4 @@
-# queryAPI.py
+# queryAPI.py [Rachel Gardner]
 #
 # This file is intended to allow the program to look up
 # acronym definitions of acronyms it has never seen before

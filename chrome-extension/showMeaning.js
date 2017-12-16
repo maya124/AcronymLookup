@@ -1,4 +1,4 @@
-// showMeaning.js
+// showMeaning.js [Rachel Gardner]
 //
 // This file is the content script for the Chrome extension.
 // It listens for requests from the background script, then

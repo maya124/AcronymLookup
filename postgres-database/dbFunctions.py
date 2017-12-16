@@ -1,4 +1,4 @@
-# dbFunctions.py
+# dbFunctions.py [Rachel Gardner]
 #
 # This file defines the AcronymsDatabase class, which
 # interfaces with the PostgreSQL backend to store acronyms, definitions

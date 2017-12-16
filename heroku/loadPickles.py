@@ -1,4 +1,4 @@
-# loadPickles.py
+# loadPickles.py [Rachel Gardner]
 #
 # This file loads the raw pickle files from the Amazon S3 bucket.
 

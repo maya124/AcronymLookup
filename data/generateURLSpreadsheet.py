@@ -1,4 +1,4 @@
-# generateURLSpreadsheet.py
+# generateURLSpreadsheet.py [Rachel Gardner]
 #
 # Create spreadsheets of URLs for Wikipedia articles in the categories listed in categories.txt
 

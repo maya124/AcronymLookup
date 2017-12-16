@@ -1,4 +1,4 @@
-# extractDefinition.py
+# extractDefinition.py [Rachel Gardner]
 #
 # This file contains the formulation of the constraint satisfaction problem
 # used to extract ground truth definitions from raw text that contains acronyms
